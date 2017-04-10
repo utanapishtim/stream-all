@@ -1,0 +1,33 @@
+{
+  "name": "stream-all",
+  "version": "1.0.0",
+  "description": "Like Promise.all but for streams",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utanapishtim/stream-all.git"
+  },
+  "keywords": [
+    "stream",
+    "all"
+  ],
+  "author": "utanapishtim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/utanapishtim/stream-all/issues"
+  },
+  "homepage": "https://github.com/utanapishtim/stream-all#readme",
+  "devDependencies": {
+    "standard": "^10.0.1",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "inherits": "^2.0.3",
+    "readable-stream": "^2.2.8",
+    "through2": "^2.0.3"
+  }
+}
